@@ -1,0 +1,51 @@
+[general]
+bars = 40
+framerate = 60
+lower_cutoff_freq = 30
+higher_cutoff_freq = 10000
+autosens = 0
+sensitivity = 80
+overshoot = 20
+noise_reduction = 60
+
+[input]
+method = portaudio
+source = BlackHole 2ch
+
+[output]
+method = ncurses
+channels = stereo
+bar_delimiter = " "
+bar_width = 2
+bar_spacing = 1
+mono_independent = 0
+resolution = 5
+foreground = "#cba6f7"
+background = "#1e1e2e"
+gradient = 1
+gradient_count = 4
+gradient_color_1 = "#a6e3a1"
+gradient_color_2 = "#f9e2af"
+gradient_color_3 = "#f38ba8"
+gradient_color_4 = "#89b4fa"
+
+[color]
+background = default
+foreground = default
+
+[smoothing]
+integral = 90
+gravity = 100
+interval = 0.02
+
+[eq]
+1 = 1
+2 = 1
+3 = 1
+4 = 1
+5 = 1
+6 = 1
+7 = 1
+8 = 1
+9 = 1
+10 = 1
